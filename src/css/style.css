@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Remove margens e padding padrão */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    font-family: 'Roboto';
+}
+
+/* Estilo do header para ficar colado no topo */
+header {
+    background-color: #f1f3f5; /* Cor de fundo cinza claro */
+    padding: 15px 20px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* ESTILIZAÇÃO DO HEADER */
+
+/* Para manter o layout flexível */
+section#part1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaçamento entre os elementos */
+}
+
+/* Estilo do select e inputs */
+select, input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f9fa; /* Cor de fundo clara */
+    color: #343a40; /* Cor do texto */
+    width: 150px; /* Largura dos inputs */
+}
+
+/* Estilo para o checkbox e label */
+label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #343a40; /* Cor do texto da label */
+}
+
+/* Estilo para o botão de login */
+button.login {
+    background-color: #001f54; /* Cor de fundo azul escuro */
+    color: #fff; /* Cor do texto */
+    border: none;
+    border-radius: 4px;
+    padding: 16px 16px;
+    cursor: pointer;
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilo para o botão de abrir conta */
+button.open-account {
+    background-color: #d8a13f; /* Cor de fundo dourada */
+    color: #fff; /* Cor do texto */
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold; /* Texto em negrito */
+    margin-right: 5%;
+}
+
+/* Estilo do menu de navegação */
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px; /* Espaçamento entre os itens do menu */
+}
+
+nav a {
+    text-decoration: none;
+    color: #343a40; /* Cor do texto */
+    font-weight: bold; /* Negrito */
+}
+
+nav #a1 a {
+    color: #000; /* Cor do texto ativo */
+    text-decoration: none;
+    border-bottom: 3px solid #000; /* Linha inferior indicando o ativo */
+}
+
+nav a:hover {
+    color: #000; /* Cor do texto ao passar o mouse */
+}
+
+#lembre{
+    font-size: 0.8rem;
+}
+
+#part2{
+    background-color: white;
+    height: 70px;
+}
+
+.logo img{
+    width: 150px;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    float: left;
+}
+
+#part2 div nav ul li a{
+    float: left;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+#part2 div nav ul li img{
+    width: 30px;
+    margin-top: 30px;
+}
+
+#option ul li{
+    margin-left: 6.5%;
+}
+
+/* CUSTOMIZAÇÃO DO  BANNER E TEXTO SOBRE ELE */
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#txt-banner{
+    margin-left: 7%;
+    margin-top: 10%;
+    color: #001f54;
+    font-weight: 400;
+    float: left;
+    position: absolute;
+}
+
+#txt-banner h2{
+    line-height: 14px;
+    font-size: 2.0rem;
+}
+
+.banner img{
+    max-width: 1399px;
+    float: left;
+}
+
+#open-account1{
+    background-color: #001f54; /* Cor de fundo azul escuro */
+    color: #fff; /* Cor do texto */
+    border: none;
+    border-radius: 4px;
+    padding: 16px 60px;
+    cursor: pointer;
+    font-weight: bold; /* Texto em negrito */
+    font-size: 1.01rem;
+}
+
+/* SECTION - PART 3 */
+
+#part3{
+    background-color: white;
+}
+
+#txt3{
+    margin-left: 7%;
+    padding-top: 43%;
+}
+
+#txt3 p{
+    color: #001f54;
+    font-style: italic;
+    font-size: 2rem;
+    line-height: 0.8rem;
+    font-family: sans-serif;
+}
+
+#txt3 legend{
+    margin-bottom: 2%;
+    color: #001f54;
+}
+
+/* CUSTOMIZAÇÃO DOS CARDS */
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+    float: left;
+    margin-left: 30px;
+}
+
+.card img {
+    width: 100px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.card-description {
+    font-size: 14px;
+    color: #666;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.card-btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.card-btn:hover {
+    background-color: #0056b3;
+}
+
+/* SECTION - PART 4 */
+
+#txt4{
+    margin-top: 30%;
+    margin-left: 7%;
+    color: #001f54;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    line-height: 0.8rem;
+    font-style: italic;
+
+}
+
+.simple-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    float: left;
+    margin-left: 35px;
+}
+
+.simple-card-title {
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.simple-card-description {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+/* SECTION - PART 5 */
+
+#part5 div{
+    margin-left: 7%;
+}
+
+#txt5{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    color: #001f54;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    line-height: 0.8rem;
+    font-style: italic;
+}
+
+#txt5_1{
+    color: #285381;
+}
+
+#txt5_1 h3{
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+#txt5_1 p{
+    line-height: 0.5rem;
+    color: #001f54;
+}
+
+#txt5_2{
+    color: #285381;
+}
+
+#txt5_2 h3{
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+#txt5_2 p{
+    line-height: 0.5rem;
+    color: #001f54;
+}
+
+#txt5_3{
+    color: #285381;
+}
+
+#txt5_3 h3{
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+#txt5_3 p{
+    line-height: 0.5rem;
+    color: #001f54;
+}
+
+#lgd{
+    margin-left: 7%;
+    margin-top: 3%;
+    font-size: 0.7rem;
+    color: #666;
+    margin-bottom: 3%;
+}
+
+#open-account2{
+    background-color: #001f54; /* Cor de fundo azul escuro */
+    color: #fff; /* Cor do texto */
+    border: none;
+    border-radius: 4px;
+    padding: 16px 60px;
+    cursor: pointer;
+    font-weight: bold; /* Texto em negrito */
+    font-size: 1.01rem;
+    margin-left: 7%;
+}
+
+#part5 img{
+    float: right;
+}
+
+/* SECTION - PART 6 */
+
+#txt6{
+    margin-top: 10%;
+    margin-left: 7%;
+}
+
+#txt6 p{
+    color: #001f54;
+    font-size: 2rem;
+    font-family: sans-serif;
+    line-height: 0.8rem;
+}
+
+#txt6 legend{
+    color: #001f54;
+    font-size: 1.2rem;
+}
